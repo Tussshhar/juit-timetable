@@ -26,28 +26,71 @@ const timetables = {
     },
     '24A17': {
         'Monday': [
-            { subjectCode: 'CS201', destinationClass: 'Lab 301', teacherCode: 'TC010' },
-            { subjectCode: 'MATH202', destinationClass: 'Room 201', teacherCode: 'TC011' },
-            { subjectCode: 'PHY203', destinationClass: 'Lab 302', teacherCode: 'TC012' },
-            { subjectCode: 'CHEM204', destinationClass: 'Lab 303', teacherCode: 'TC013' },
-            { subjectCode: 'ENG205', destinationClass: 'Room 202', teacherCode: 'TC014' },
-            { subjectCode: 'CS206', destinationClass: 'Lab 304', teacherCode: 'TC015' },
-            { subjectCode: 'MATH207', destinationClass: 'Room 203', teacherCode: 'TC016' },
-            { subjectCode: 'PHY208', destinationClass: 'Lab 305', teacherCode: 'TC017' },
-            { subjectCode: 'CHEM209', destinationClass: 'Lab 306', teacherCode: 'TC018' }
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'HS171', destinationClass: 'GDROOM', teacherCode: 'RTK' },
+            { subjectCode: 'MA111', destinationClass: 'MAT_RS2', teacherCode: 'TR1' },
+            { subjectCode: 'PH111', destinationClass: 'LT2', teacherCode: 'SKK' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'PH111', destinationClass: 'TR2', teacherCode: 'SKK' },
+            { subjectCode: 'HS171', destinationClass: 'LANGULAB', teacherCode: 'RTK' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' }
         ],
         'Tuesday': [
-            // Add data for Tuesday
+            { subjectCode: 'MA111', destinationClass: 'LT1', teacherCode: 'NKT' },
+            { subjectCode: 'CL111', destinationClass: 'CR11', teacherCode: 'FSL' },
+            { subjectCode: 'PH111', destinationClass: 'SKK', teacherCode: 'LT2' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' }
         ],
         'Wednesday': [
-            // Add data for Wednesday
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'MA111', destinationClass: 'LT1', teacherCode: 'NKT' },
+            { subjectCode: 'CL111', destinationClass: 'CR11', teacherCode: 'FSL' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' }
         ],
         'Thursday': [
-            // Add data for Thursday
+            { subjectCode: 'GE171', destinationClass: 'WORKLAB', teacherCode: 'NJP' },
+            { subjectCode: 'GE171', destinationClass: 'WORKLAB', teacherCode: 'NJP' },
+            { subjectCode: 'GE171', destinationClass: 'WORKLAB', teacherCode: 'NJP' },
+            { subjectCode: 'PH111', destinationClass: 'LT2', teacherCode: 'SKK' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'HS111', destinationClass: 'LT1', teacherCode: 'DLR' },
+            { subjectCode: 'CL111', destinationClass: 'CR11', teacherCode: 'FSL' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' }
         ],
         'Friday': [
-            // Add data for Friday
-        ]
+             { subjectCode: 'CL171', destinationClass: 'CL9_1', teacherCode: 'FSL' },
+            { subjectCode: 'CL171', destinationClass: 'CL9_1', teacherCode: 'FSL' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'MA111', destinationClass: 'LT1', teacherCode: 'NKT' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'HS111', destinationClass: 'DLR', teacherCode: 'LT1' },
+            { subjectCode: 'PH171', destinationClass: 'PHLAB1', teacherCode: 'HAZ' },
+            { subjectCode: 'PH171', destinationClass: 'PHLAB1', teacherCode: 'HAZ' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' }
+        ],
+        'Saturday': [
+             { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' }
+        ],
     },
     
     '24J12': {
@@ -60,7 +103,7 @@ const timetables = {
             { subjectCode: 'GE171', destinationClass: 'CAD/DEAWR', teacherCode: 'TNM' },
             { subjectCode: 'GE171', destinationClass: 'CAD/DRAWR', teacherCode: 'TNM' },
             { subjectCode: 'GE171', destinationClass: 'CAD/DRAWR', teacherCode: 'TNM' },
-            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: 'TC009' }
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' }
         ],
         'Tuesday': [
             { subjectCode: 'MA111', destinationClass: 'LT3', teacherCode: 'MDS' },
@@ -82,7 +125,7 @@ const timetables = {
             { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
             { subjectCode: 'PH171', destinationClass: 'PHLAB2', teacherCode: 'SKT' },
             { subjectCode: 'PH171', destinationClass: 'PHLAB2', teacherCode: 'SKT' },
-            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: 'TC009' }
+            { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' }
         ],
         'Thursday': [
             { subjectCode: 'MA111', destinationClass: 'LT3', teacherCode: 'MDS' },
@@ -106,7 +149,7 @@ const timetables = {
             { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
             { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' }
         ],
-        'Friday': [
+        'Saturday': [
              { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
             { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
             { subjectCode: 'NO CLASS', destinationClass: '', teacherCode: '' },
