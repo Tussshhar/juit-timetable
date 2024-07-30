@@ -48,6 +48,32 @@ const timetables = {
         'Friday': [
             // Add data for Friday
         ]
+    },
+    
+    '24J12': {
+        'Monday': [
+            { subjectCode: 'MATH101', destinationClass: 'Room 101', teacherCode: 'TC001' },
+            { subjectCode: 'PHY102', destinationClass: 'Lab 201', teacherCode: 'TC002' },
+            { subjectCode: 'CHEM103', destinationClass: 'Lab 202', teacherCode: 'TC003' },
+            { subjectCode: 'ENG104', destinationClass: 'Room 102', teacherCode: 'TC004' },
+            { subjectCode: 'CS105', destinationClass: 'Lab 203', teacherCode: 'TC005' },
+            { subjectCode: 'MATH106', destinationClass: 'Room 103', teacherCode: 'TC006' },
+            { subjectCode: 'PHY107', destinationClass: 'Lab 204', teacherCode: 'TC007' },
+            { subjectCode: 'CHEM108', destinationClass: 'Lab 205', teacherCode: 'TC008' },
+            { subjectCode: 'ENG109', destinationClass: 'Room 104', teacherCode: 'TC009' }
+        ],
+        'Tuesday': [
+            // Add data for Tuesday
+        ],
+        'Wednesday': [
+            // Add data for Wednesday
+        ],
+        'Thursday': [
+            // Add data for Thursday
+        ],
+        'Friday': [
+            // Add data for Friday
+        ]
     }
 };
 
