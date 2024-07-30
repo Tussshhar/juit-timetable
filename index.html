@@ -3,38 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University Timetable Generator</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Batch Timetable</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>University Timetable Generator</h1>
-        <div class="input-section">
-            <label for="batch-select">Select your batch:</label>
-            <select id="batch-select">
-                <option value="">--Please choose an option--</option>
-                <option value="A192024">24A19</option>
-                <option value="ee-2023">Electrical Engineering 2023</option>
-                <option value="me-2023">Mechanical Engineering 2023</option>
-            </select>
-            <button id="generate-btn">Generate Timetable</button>
-        </div>
-        <div id="timetable-container" class="hidden">
-            <h2>Your Timetable</h2>
-            <table id="timetable">
-                <thead>
-                    <tr>
-                        <th>Time</th>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </div>
+        <h1>Batch Timetable</h1>
+        <select id="batchSelect">
+            <option value="">Select a batch</option>
+            <option value="24A19">24A19</option>
+            <option value="24A17">24A17</option>
+        </select>
+        <div id="timetable"></div>
     </div>
     <script src="script.js"></script>
 </body>
